@@ -1,0 +1,47 @@
+<svg width="108" height="108" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+    <!-- 1. 定义所有的渐变属性 (对应 AVD 中的 aapt:attr) -->
+    <defs>
+        <!-- 背景 "O" 的渐变 (处理了 Android 的 8 位十六进制透明度) -->
+        <!-- 99 ≈ 60% opacity, 40 ≈ 25% opacity, 00 = 0% opacity -->
+        <linearGradient id="gradO" x1="34" y1="34" x2="74" y2="74" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.6" />
+            <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.25" />
+            <stop offset="1" stop-color="#FFFFFF" stop-opacity="0" />
+        </linearGradient>
+
+        <!-- 左斜杠 "\" 的三色渐变 (鲜活绿洲 - 中心轴顺溜渐变) -->
+        <linearGradient id="gradLeft" x1="54" y1="26" x2="54" y2="82" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#A3E635" />
+            <stop offset="0.5" stop-color="#10B981" />
+            <stop offset="1" stop-color="#0891B2" />
+        </linearGradient>
+
+        <!-- 右斜杠 "/" 的白灰渐变 (中心轴顺溜渐变) -->
+        <linearGradient id="gradRight" x1="54" y1="26" x2="54" y2="82" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFFFFF" />
+            <stop offset="1" stop-color="#D1D5DB" />
+        </linearGradient>
+    </defs>
+
+    <!-- 2. 图标底板：深色圆角背景 (为了在 Markdown 中凸显白色元素) -->
+    <!-- 如果你想让背景完全透明，可以删除这一行，或把 fill 改为 "none" -->
+    <rect width="108" height="108" rx="24" fill="#0F172A" />
+
+    <!-- 3. The "O" 背景渐变光环 -->
+    <path d="M 54,34 a 20,20 0 1,0 0,40 a 20,20 0 1,0 0,-40 z"
+        fill="none"
+        stroke="url(#gradO)"
+        stroke-width="4"
+        stroke-linecap="round" />
+
+    <!-- 4. The "X" 左斜杠 (\) -->
+    <!-- transform 实现了 AVD 中的 pivotX, pivotY 和 rotation -->
+    <g transform="rotate(-45 54 54)">
+        <path d="M 47,33 a 7,7 0 0 1 14,0 l 0,42 a 7,7 0 0 1 -14,0 z" fill="url(#gradLeft)" />
+    </g>
+
+    <!-- 5. The "X" 右斜杠 (/) - 已去除阴影的极简版 -->
+    <g transform="rotate(45 54 54)">
+        <path d="M 47,33 a 7,7 0 0 1 14,0 l 0,42 a 7,7 0 0 1 -14,0 z" fill="url(#gradRight)" />
+    </g>
+</svg>
