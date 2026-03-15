@@ -40,15 +40,19 @@
 
 - 修改状态栏左边距
 - 修改状态栏右边距
+- 设置电池图标宽度缩放倍数
+- 设置电池图标高度缩放倍数
+- 设置电池图标宽度缩放倍数
+- 设置电池图标高度缩放倍数
 - 隐藏状态栏电池的百分号
 - 支持显示实时网速
 - 状态栏显示上传下载网速
 - 设置状态栏日期时间格式
 - 状态栏时间每秒更新
-- 极简中文时间日期
 - 隐藏安全文件夹状态栏图标
 - 双击状态栏锁屏
 - 修改状态栏最大通知图标数量
+- 自定义运营商名称
 
 ##### 快捷设置
 
@@ -90,6 +94,7 @@
 - 通话界面显示“录音”按钮而不是“添加通话”按钮
 - 显示来电归属地
 - 中国大陆样式的通话记录
+- 支持跨设备接打电话和收发短信
 
 #### 相机
 
@@ -110,6 +115,7 @@
 - 主题和图标试用永不过期
 - 自定义浏览器搜索引擎（国行专属）
 - 禁用图片编辑器 AI 水印
+- 绕过 Samsung Health Monitor 国家检查
 
 ### 📦 安装要求
 
@@ -146,15 +152,17 @@
 
 - Modify status bar left padding
 - Modify status bar right padding
+- Set battery icon width scale factor
+- Set battery icon height scale factor
 - Hide battery percentage sign in status bar
 - Support displaying real-time network speed
 - Show separate upload/download speeds in status bar
 - Set status bar date and time format
 - Update status bar clock every second
-- Compact Chinese time and date
 - Hide Secure Folder status bar icon
 - Double tap status bar to sleep
 - Modify maximum number of notification icons in status bar
+- Set custom carrier name
 
 ##### Quick Settings
 
@@ -172,7 +180,7 @@
 - Show Lunar calendar in QS panel
 - Modify Quick Settings panel clock text size
 
-##### Alaways On Display
+##### Always On Display
 
 - Hide AOD status bar
 - Show Chinese Lunar calendar on AOD/Lock screen
@@ -196,6 +204,7 @@
 - Show 'Record' button instead of 'Add call' button on call screen
 - Show caller location in recent calls
 - Mainland China style call log
+- Support call & text on other devices
 
 #### Camera
 
@@ -216,6 +225,7 @@
 - Never expire theme and icon trials
 - Customize browser search engine (Mainland China ROM exclusive)
 - Disable Photo Editor AI watermark
+- Bypass Samsung Health Monitor country check
 
 ### 📦 Installation Requirements
 
