@@ -51,6 +51,7 @@
 - 双击状态栏锁屏
 - 修改状态栏最大通知图标数量
 - 自定义运营商名称
+- 隐藏锁屏界面的状态栏
 
 ##### 快捷设置
 
@@ -96,7 +97,7 @@
 
 #### 相机
 
-- 显示相机的所有菜单
+- 显示相机的所有菜单（快门音、自动 HDR、Log、边框叠加水印）
 - 禁用相机过热检查
 
 #### 其他
@@ -111,9 +112,10 @@
 - 日历中显示中国节假日
 - 支持拦截短信
 - 主题和图标试用永不过期
-- 自定义浏览器搜索引擎（国行专属）
+- 伪装浏览器国家/地区代码为美国
 - 禁用图片编辑器 AI 水印
 - 绕过 Samsung Health Monitor 国家检查
+- S Pen 使用谷歌翻译
 
 ### 📦 安装要求
 
@@ -126,8 +128,6 @@
 
 欢迎提交 Pull Request 或开 Issue 讨论新功能与 Bug 修复！
 由于 One UI 的更新可能会导致 Hook 失效，如果你发现了失效的 Hook 点，非常欢迎提交 PR 修复。
-
-> 因个人原因，我将会在4月开始活跃开发新功能和修复bug
 
 ---
 
@@ -161,6 +161,7 @@
 - Double tap status bar to sleep
 - Modify maximum number of notification icons in status bar
 - Set custom carrier name
+- Hide status bar on lock screen
 
 ##### Quick Settings
 
@@ -206,7 +207,7 @@
 
 #### Camera
 
-- Show all camera menus
+- Show all camera menus (Shutter sound, Auto HDR, Log, Frame watermark)
 - Disable camera temperature check
 
 #### Other
@@ -221,9 +222,10 @@
 - Show Chinese holidays in Calendar
 - Support message blocking
 - Never expire theme and icon trials
-- Customize browser search engine (Mainland China ROM exclusive)
+- Spoof Browser Region to US
 - Disable Photo Editor AI watermark
 - Bypass Samsung Health Monitor country check
+- Use Google Translate for S Pen
 
 ### 📦 Installation Requirements
 
@@ -236,8 +238,6 @@
 
 Feel free to submit Pull Requests or open Issues to discuss new features and bug fixes!
 Since One UI updates may cause hooks to fail, if you find any invalid hook points, you are highly encouraged to submit a PR to fix them.
-
-> Due to personal reasons, I will actively start developing new features and fixing bugs starting in April.
 
 ---
 
