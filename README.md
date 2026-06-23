@@ -34,6 +34,7 @@
 - 可以禁用系统的通知类别
 - 支持应用跳转拦截
 - 解除 FCM 网络限制
+- 拔出充电器时不亮屏
 
 #### 系统 UI
 
@@ -170,6 +171,7 @@
 - Allow disabling system notification categories
 - Support app jump blocking
 - Lift FCM network limit
+- Keep screen off when unplugged
 
 #### System UI
 
