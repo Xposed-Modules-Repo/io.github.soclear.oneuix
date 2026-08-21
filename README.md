@@ -35,6 +35,7 @@
 - 支持应用跳转拦截
 - 解除 FCM 网络限制
 - 拔出充电器时不亮屏
+- 全局禁用三星写作工具包
 
 #### 系统 UI
 
@@ -50,8 +51,10 @@
 - 支持显示实时网速
 - 状态栏显示上传下载网速
 - 设置状态栏日期时间格式
+- 设置状态栏时间大小
 - 状态栏时间每秒更新
 - 隐藏安全文件夹状态栏图标
+- 恢复蓝牙状态栏图标
 - 实体 eSIM 适配器兼容处理
 - 双击状态栏锁屏
 - 修改状态栏最大通知图标数量
@@ -64,6 +67,7 @@
 - 隐藏快捷设置的设备控制
 - 隐藏快捷设置的 Smart View
 - 开启快捷设置 5G 磁贴
+- 开启沉浸模式快捷设置磁贴
 - 隐藏快捷设置面板的媒体播放器 Bar
 - 隐藏快捷设置面板的附近设备和设备控制 Bar
 - 隐藏快捷设置面板的安全底部提示 Bar
@@ -88,6 +92,7 @@
 - 禁用截图声音
 - 隐藏音乐应用的实时活动
 - 允许所有旋转角度
+- 自动展开通知
 
 #### 设置
 
@@ -122,12 +127,14 @@
 - 视频播放器添加 3.0 和 4.0 倍速
 - 强制链接跳转外部三星浏览器
 - 显示相册的所有设置
+- 允许隐藏分享的相册
+- 隐藏视频编辑工作室
 - 支持三星笔记的所有功能
 - 日历中显示中国节假日
 - 支持拦截短信
 - 主题和图标试用永不过期
 - 伪装浏览器国家/地区代码为美国
-- 禁用图片编辑器 AI 水印
+- 禁用 AI 水印
 - 绕过 Samsung Health Monitor 国家检查
 - S Pen 使用谷歌翻译
 - 隐藏应用屏幕搜索栏
@@ -172,6 +179,7 @@
 - Support app jump blocking
 - Lift FCM network limit
 - Keep screen off when unplugged
+- Disable Samsung Writing Toolkit globally
 
 #### System UI
 
@@ -187,8 +195,10 @@
 - Support displaying real-time network speed
 - Show separate upload/download speeds in status bar
 - Set status bar date and time format
+- Set status bar clock size
 - Update status bar clock every second
 - Hide Secure Folder status bar icon
+- Restore Bluetooth status bar icon
 - Workaround for physical eSIM adapter
 - Double tap status bar to sleep
 - Modify maximum number of notification icons in status bar
@@ -201,6 +211,7 @@
 - Hide Device Control in Quick Settings
 - Hide Smart View in Quick Settings
 - Enable 5G Quick Settings tile
+- Enable Immersive mode Quick Settings tile
 - Hide Media Player bar in QS panel
 - Hide Nearby Devices and Device Control bar in QS panel
 - Hide Security footer bar in QS panel
@@ -225,6 +236,7 @@
 - Disable screenshot sound
 - Hide ongoing activity for media apps
 - Allow all rotation angles
+- Auto expand notifications
 
 #### Settings
 
@@ -259,12 +271,14 @@
 - Add 3.0x and 4.0x playback speeds to video player
 - Force links to open in external Samsung Internet
 - Show all Gallery settings
+- Allow hiding shared albums
+- Hide Video Editor Studio
 - Support all Samsung Notes features
 - Show Chinese holidays in Calendar
 - Support message blocking
 - Never expire theme and icon trials
 - Spoof Browser Region to US
-- Disable Photo Editor AI watermark
+- Disable AI watermark
 - Bypass Samsung Health Monitor country check
 - Use Google Translate for S Pen
 - Hide search bar on app screen
